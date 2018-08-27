@@ -7,7 +7,7 @@ namespace frontend
     {
         static void Main(string[] args)
         {
-            string baseAddress = args[0];
+            string baseAddress = "http://localhost:6001/";
 
             // Start OWIN host 
             using (WebApp.Start<Startup>(url: baseAddress))
